@@ -1,9 +1,11 @@
-var express = require('express');
-var router = express.Router();
+import Router from 'express'
+import read from '../controllers/auth/read.js'
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+const auth_router = Router()
 
-module.exports = router;
+// auth_router.post()   // POST para crear un author
+auth_router.get('/', read)    // GET para leer (TODOS o solo uno)
+// auth_router.put()    // PUT para actualizar un autor
+// auth_router.delete() // DELETE para eliminar un autor
+
+export default auth_router
