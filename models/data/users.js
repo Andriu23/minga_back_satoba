@@ -35,7 +35,7 @@ let users = [{
     online: false,
     photo: "https://i.postimg.cc/7Yj2FytQ/43cc80b4c098e43a988c535eaba42c53-icono-de-usuario-de-persona.png"
 },{
-    email: "silvina@mh.com.ar",
+    email: "alejandro@mh.com.ar",
     password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
     role: 3,
     verified: true,
