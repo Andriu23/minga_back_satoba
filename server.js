@@ -1,6 +1,6 @@
 import server from './app.js'
 import 'dotenv/config.js'
-import './config/db.js'
+import './config/database.js'
 
 const PORT = process.env.PORT || 8080
 const ready = ()=>console.log('server running on port '+PORT)
